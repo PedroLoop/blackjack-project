@@ -12,8 +12,15 @@ class Gameboard{
           this.continuer = continuer; 
           this.arreter = arreter;
           this.cartes = cartes; 
+          this.nouveauJeu = nouveauJeu;
     }
+    
+    nouveauJeu(){
+        nouveauJeu.classList.add("hidden");
 
+        playerHand.push(deck.pop());
+        playerHand.push(deck.pop());
+    }
     // function
 }
 
