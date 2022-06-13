@@ -15,8 +15,10 @@
 
   <h1 style="margin-top:100px ;">JavaScript Blackjack </h1>
 
-  <div id="tracker" class="buttonbox">
-    <p>Victoires: 0 Nuls: 0 Défaites: 0</p>
+  <div id="tracker" class="buttonbox" style="display: inline-flex;">
+    <p class="mx-3" id="victoires">Victoires: 0 </p>
+    <p class="mx-3" id="nuls">Nuls: 0 </p>
+    <p class="mx-3" id="defaites">Défaites: 0 </p>
   </div>
 
   <div class="textupdates" id="textUpdates">
@@ -24,18 +26,17 @@
   </div> 
 
   <div class="buttonbox" id="newgame">
-    <button class="btn btn-primary my-3 col-4" alt="Jouer" id="Jouer" onclick="jouer()">Jouer</button>
+    <button class="btn btn-primary my-3 col-4" alt="Jouer" id="jouer" onclick="jouer()">Jouer</button>
   </div>
 
   <div class="buttonbox hidden" id="buttonBox">
-    <button class="btn btn-success my-1 col-2" alt="aontinuer" id="continuer">Continuer</button>
+    <button class="btn btn-success my-1 col-2" alt="continuer" id="continuer">Continuer</button>
     <button class="btn btn-danger my-1 col-2" alt="arreter" id="arreter">Arreter</button>
   </div>
 
   <table style="margin:0 auto;" class="my-5">
     <tr>
       <th id="Cartes">Vous avez : </th>
-      <td id="Cartes">&nbsp aucune carte pour le moment.</td>   
     </tr>
   </table>
 
