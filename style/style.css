@@ -1,0 +1,27 @@
+.body{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: black !important;
+    color: white !important;
+
+}
+
+.bg-image{
+    background-image: url('/asset/shutterstock_1715167144-1-994x559.jpg');
+    z-index: -1;
+    position:absolute;
+    opacity: 20%;
+    background-size: cover;
+}
+
+.card{
+    margin: 0 auto;
+    max-width: 50%;
+}
+
+.hidden
+{
+    visibility: hidden
+}
+
